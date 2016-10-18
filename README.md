@@ -3,6 +3,12 @@
 Docker image that has XLD installed, mounts your source code and executes compilation using gradle wrapper. 
 After compilation it starts XLD and links the `ext` folder to your plugin.
 
+# Supported tags #
+
+* `latest`, `v5.5.5.1`
+* `5.5.3.1`
+* `5.5.1.1`
+
 # Starting #
 
 ```
