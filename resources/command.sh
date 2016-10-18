@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Copy to plugins
 cp /data/build/distributions/*.xldp /opt/xld/server/plugins

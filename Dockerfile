@@ -1,4 +1,4 @@
-FROM xebialabs/xld_dev_compile:v5.5.5.1
+FROM xebialabs/xld_dev_compile:v5.5.5.2
 
 MAINTAINER Joris De Winne <jdewinne@xebialabs.com>
 ENV REFRESHED_AT 2016-10-17
