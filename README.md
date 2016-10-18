@@ -1,6 +1,7 @@
 # xld_dev_run #
 
-Docker image that has XLD installed, mounts your source code and executes compilation using gradle wrapper. After compilation it starts XLD and links the `ext` to your plugin.
+Docker image that has XLD installed, mounts your source code and executes compilation using gradle wrapper. 
+After compilation it starts XLD and links the `ext` folder to your plugin.
 
 # Starting #
 
