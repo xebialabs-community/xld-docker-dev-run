@@ -1,5 +1,10 @@
 #!/usr/bin/env sh
 
+# Copy downloads into 'plugins'
+if [ -d "/data/build/downloads/plugins" ]; then
+    cp /data/build/downloads/plugins/* /opt/xld/server/plugins
+fi
+
 # Copy to plugins
 cp /data/build/distributions/*.xldp /opt/xld/server/plugins
 
