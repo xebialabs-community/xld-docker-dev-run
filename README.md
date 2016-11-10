@@ -5,7 +5,8 @@ After compilation it starts XLD and links the `ext` folder to your plugin.
 
 # Supported tags #
 
-* `latest`, `v5.5.5.7`
+* `latest`, `v6.0.0.1`
+* `v5.5.5.7`
 * `5.5.3.1`
 * `5.5.1.1`
 
