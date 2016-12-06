@@ -37,6 +37,15 @@ do
             exit $res
           fi
       fi
+      files=(/data/build/resources/test/docker/tests/*)
+      if [ ${#files[@]} -gt 0 ]; then
+          cp /data/build/resources/test/docker/tests/* /opt/xld/cli/ext
+          /opt/xld/cli/bin/cli.sh -username admin -password admin -f /opt/xld/xld_test.py
+          res=$?
+          if [ $res != 0 ] ; then
+            exit $res
+          fi
+      fi
       sleep 4
       exit
     fi
