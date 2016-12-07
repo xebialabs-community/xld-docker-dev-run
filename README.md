@@ -25,4 +25,4 @@ where:
 
 # Initialize and testing #
 + Put a script under `src/test/resources/docker/intialize/xld_initialize.py` and it will be invoked using the CLI at XLD startup
-+ Put some pytest scripts under `src/test/resources/dockes/tests` and they will be executed within the CLI using pytest.
++ Put some pytest scripts under `src/test/resources/dockes/tests` and they will be executed within the CLI using pytest. Results will be stored in `/data/build/tests/results/junit.xml`.

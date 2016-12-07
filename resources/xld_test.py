@@ -4,4 +4,4 @@
 # FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
 #
 import pytest
-pytest.main()
+pytest.main(['--junitxml','/data/build/tests/results/junit.xml'])
