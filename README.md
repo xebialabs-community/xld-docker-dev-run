@@ -22,3 +22,7 @@ where:
 * `data`: Mountpoint pointing to root directory of your plugin.
 * `xl-licenses`: Folder containing the XLD license.
 * `xlgradle`: Is used to cache gradle dependencies.
+
+# Initialize and testing #
++ Put a script under `src/test/resources/docker/intialize/xld_initialize.py` and it will be invoked using the CLI at XLD startup
++ Put some pytest scripts under `src/test/resources/dockes/tests` and they will be executed within the CLI using pytest.
