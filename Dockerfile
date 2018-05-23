@@ -1,7 +1,7 @@
-FROM xebialabs/xld_dev_compile:v7.6.0.1
+FROM xebialabs/xld_dev_compile:v8.0.0.1
 
 MAINTAINER XebiaLabs <info@xebialabs.com>
-ENV REFRESHED_AT 2018-03-19
+ENV REFRESHED_AT 2018-05-23
 
 ADD resources/supervisord.conf /etc/supervisord.conf
 ADD resources/command.sh /opt/xld/command.sh
