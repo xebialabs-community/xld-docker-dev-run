@@ -4,31 +4,25 @@ Docker image that has XLD installed, mounts your source code and executes compil
 After compilation it starts XLD and links the `ext` folder to your plugin.
 
 ## Badges ##
-[![Docker Stars](https://img.shields.io/docker/stars/xebialabs/xld_dev_compile.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/xebialabs/xld_dev_compile.svg)]()
-[![Docker Automated buil](https://img.shields.io/docker/automated/xebialabs/xld_dev_compile.svg)]()
-[![Docker Build Statu](https://img.shields.io/docker/build/xebialabs/xld_dev_compile.svg)]()
+[![Docker Stars](https://img.shields.io/docker/stars/xebialabsunsupported/xld_dev_compile.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/xebialabsunsupported/xld_dev_compile.svg)]()
+[![Docker Automated buil](https://img.shields.io/docker/automated/xebialabsunsupported/xld_dev_compile.svg)]()
+[![Docker Build Statu](https://img.shields.io/docker/build/xebialabsunsupported/xld_dev_compile.svg)]()
 
-## Supported tags ##
+## Tags ##
 
-* `latest`, `v8.0.0.1`
+* `latest`, `8.1.0`
+* `v8.0.0.1`
 * `v7.6.0.1`
 * `v7.5.0.1`
 * `v7.2.0.1`
 * `v7.1.0.1`
 * `v7.0.0.1`
-* `v6.2.1.1`
-* `v6.0.2.1`
-* `v6.0.1.2`
-* `v6.0.0.1`
-* `v5.5.5.7`
-* `5.5.3.1`
-* `5.5.1.1`
 
 ## Starting ##
 
 ```
-docker run -p 4516:4516 -v ~/myproject:/data -v ~/xl-licenses:/license -v ~/.xlgradle:/root/.gradle xebialabs/xld_dev_run
+docker run -p 4516:4516 -v ~/myproject:/data -v ~/xl-licenses:/license -v ~/.xlgradle:/root/.gradle xebialabsunsupported/xld_dev_run
 ```
 
 where:
