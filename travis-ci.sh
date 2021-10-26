@@ -8,9 +8,8 @@ TOKEN=$(curl -s -H "Content-Type: application/json" -X POST -d "
 }
 " https://hub.docker.com/v2/users/login/ | jq -r .token)
 
-http --follow https://gist.githubusercontent.com/jdewinne/3f13494858fad8b6b2b88ebd3439f1ea/raw/dce2f06fea89a6038acd6944c516c8be9347c48d/dockertags > ./dockertags
+# http --follow https://gist.githubusercontent.com/jdewinne/3f13494858fad8b6b2b88ebd3439f1ea/raw/dce2f06fea89a6038acd6944c516c8be9347c48d/dockertags > ./dockertags
 chmod +x dockertags
-cat ./dockertags
 
 image_name="xebialabsunsupported/xld_dev_run"
 bash ./dockertags -i xebialabsunsupported/xl-deploy -e "centos$" > /tmp/xld
