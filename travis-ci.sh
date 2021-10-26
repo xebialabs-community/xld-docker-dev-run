@@ -12,7 +12,7 @@ TOKEN=$(curl -s -H "Content-Type: application/json" -X POST -d "
 chmod +x dockertags
 
 image_name="xebialabsunsupported/xld_dev_run"
-bash ./dockertags -i xebialabsunsupported/xl-deploy -e "centos$" > /tmp/xld
+bash ./dockertags -i xebialabs/xl-deploy -e "centos$" > /tmp/xld
 bash ./dockertags -i $image_name > /tmp/xl
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 while read tag ; do
