@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install HTTPIE
-        run: apt-get install httpie
+        run: sudo apt-get install -y httpie
       - name: Build all the containers
         run: ./travis-ci.sh
