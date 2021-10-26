@@ -16,4 +16,4 @@ jobs:
         with:
           java-version: 1.8
       - name: Build all the containers
-        run: ./travis-ci
+        run: ./travis-ci.sh
